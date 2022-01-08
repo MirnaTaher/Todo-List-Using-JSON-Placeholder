@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <label for="filter">Choose the filter you want to apply:</label>
+        <select name="filter" id="filterList">
+            <option value="disabled" selected disabled>Please choose the filter you want</option>
+            <option value="complete">Complete tasks</option>
+            <option value="progress">Tasks in progress</option>          
+        </select>
+        <select name="userids" id="userIdList">
+            <option value="1">User Id = 1</option>
+            <option value="2">User Id = 2</option>
+            <option value="3">User Id = 3</option>
+            <option value="4">User Id = 4</option>
+            <option value="5">User Id = 5</option>
+            <option value="6">User Id = 6</option>
+            <option value="7">User Id = 7</option>
+            <option value="8">User Id = 8</option>
+            <option value="9">User Id = 9</option>
+            <option value="10">User Id = 10</option>  
+        </select>
+        <button type="button" id="resetBtn">Reset</button>
+    </form>
+    <div id="listItemsDiv">
+
+    </div>
+    
+
+    <script src="js/script.js"></script>
+</body>
+</html>
